@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="calc_display_layout_margin_top">10dp</dimen>
+    <dimen name="calc_display_layout_margin_left">10dp</dimen>
+    <dimen name="calc_display_layout_margin_right">10dp</dimen>
+    <dimen name="calc_display_text_size">60sp</dimen>
+    <dimen name="calc_bttn_layout_margin_left">3dp</dimen>
+    <dimen name="calc_bttn_layout_margin_right">3dp</dimen>
+</resources>

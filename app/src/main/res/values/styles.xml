@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="calc_display">
+        <item name="android:layout_marginTop">@dimen/calc_display_layout_margin_top</item>
+        <item name="android:layout_marginLeft">@dimen/calc_display_layout_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/calc_display_layout_margin_right</item>
+        <item name="android:gravity">right</item>
+        <item name="android:textSize">@dimen/calc_display_text_size</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="calc_bttns">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginLeft">@dimen/calc_bttn_layout_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/calc_bttn_layout_margin_right</item>
+        <item name="backgroundTint">@color/light_grey</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="calc_bttns_last_column">
+        <item name="backgroundTint">@color/purple_200</item>
+    </style>
+</resources>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/calc_display"
+        style="@style/calc_display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/bttn_1"
+            style="@style/calc_bttns"
+            android:backgroundTint="@color/orange"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="+" />
+
+        <Button
+            android:id="@+id/bttn_2"
+            style="@style/calc_bttns"
+            android:backgroundTint="@color/orange"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="-" />
+        <Button
+            android:id="@+id/bttn_3"
+            style="@style/calc_bttns"
+            android:backgroundTint="@color/orange"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="*" />
+        <Button
+            android:id="@+id/bttn_4"
+            style="@style/calc_bttns"
+            android:backgroundTint="@color/orange"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="/" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/bttn_5"
+            style="@style/calc_bttns"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/bttn_6"
+            style="@style/calc_bttns"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="8" />
+        <Button
+            android:id="@+id/bttn_7"
+            style="@style/calc_bttns"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="9" />
+        <Button
+            android:id="@+id/bttn_8"
+            style="@style/calc_bttns"
+            android:backgroundTint="@color/purple_500"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="=" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/bttn_9"
+                style="@style/calc_bttns"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="4" />
+            <Button
+                android:id="@+id/bttn_10"
+                style="@style/calc_bttns"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/bttn_11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/calc_bttns"
+                android:text="5" />
+            <Button
+                android:id="@+id/bttn_12"
+                style="@style/calc_bttns"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/bttn_13"
+                style="@style/calc_bttns"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="6" />
+            <Button
+                android:id="@+id/bttn_14"
+                style="@style/calc_bttns"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/bttn_15"
+                style="@style/calc_bttns"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
